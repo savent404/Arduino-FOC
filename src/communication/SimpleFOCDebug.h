@@ -35,6 +35,8 @@
 
 #ifndef SIMPLEFOC_DISABLE_DEBUG
 
+#include "Print.h"
+
 class SimpleFOCDebug {
 public:
     static void enable(Print* debugPrint = &Serial);
